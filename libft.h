@@ -6,7 +6,7 @@
 /*   By: cozcelik <cozcelik@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 15:15:56 by cozcelik          #+#    #+#             */
-/*   Updated: 2025/06/28 13:24:38 by cozcelik         ###   ########.fr       */
+/*   Updated: 2025/06/28 13:38:29 by cozcelik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,6 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif

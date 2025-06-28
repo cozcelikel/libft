@@ -6,7 +6,7 @@
 #    By: cozcelik <cozcelik@student.42kocaeli.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/23 16:22:35 by cozcelik          #+#    #+#              #
-#    Updated: 2025/06/28 13:25:52 by cozcelik         ###   ########.fr        #
+#    Updated: 2025/06/28 13:37:46 by cozcelik         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,9 @@ SRC =	ft_atoi.c \
 		ft_strncmp.c \
 		ft_substr.c \
 		ft_strtrim.c \
-		ft_strmapi.c
+		ft_strmapi.c\
+		ft_strrchr.c\
+		
 
 OBJ		= $(SRC:.c=.o)
 
