@@ -6,7 +6,7 @@
 /*   By: cozcelik <cozcelik@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 15:15:56 by cozcelik          #+#    #+#             */
-/*   Updated: 2025/06/28 13:38:29 by cozcelik         ###   ########.fr       */
+/*   Updated: 2025/06/28 13:43:07 by cozcelik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,5 +48,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strrchr(const char *s, int c);
 
 #endif
