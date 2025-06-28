@@ -6,13 +6,13 @@
 /*   By: cozcelik <cozcelik@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 17:20:21 by cozcelik          #+#    #+#             */
-/*   Updated: 2025/06/27 18:03:49 by cozcelik         ###   ########.fr       */
+/*   Updated: 2025/06/28 12:47:17 by cozcelik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 }

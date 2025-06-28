@@ -6,13 +6,13 @@
 /*   By: cozcelik <cozcelik@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 18:09:00 by cozcelik          #+#    #+#             */
-/*   Updated: 2025/06/27 15:13:11 by cozcelik         ###   ########.fr       */
+/*   Updated: 2025/06/28 12:47:45 by cozcelik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_tolower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 		return (c + 32);
 	return (c);
 }
